@@ -1,0 +1,12 @@
+.vs/
+**/obj/**
+**/bin/**
+**/node_modules/**
+**/wwwroot/**
+*.sln
+*.pubxml
+*.pubxml.user
+*.user
+*.csproj
+*.lock
+*.user

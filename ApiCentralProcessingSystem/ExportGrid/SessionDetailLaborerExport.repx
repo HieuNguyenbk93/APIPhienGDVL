@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="XtraReport" Margins="57, 53, 100, 100" PaperKind="LetterRotated" PageWidth="1100" PageHeight="850" Version="19.1" DataMember="PGD_SessionDetail_LaborerGetList" DataSource="#Ref-0">
+  <Parameters>
+    <Item1 Ref="3" Visible="false" Description="PhienId" AllowNull="true" Name="PhienId" Type="#Ref-2" />
+    <Item2 Ref="5" Visible="false" Description="Ten" Name="Ten" />
+    <Item3 Ref="6" Visible="false" Description="SoDienThoai" Name="SoDienThoai" />
+    <Item4 Ref="8" Visible="false" Description="HinhThuc" AllowNull="true" Name="HinhThuc" Type="#Ref-7" />
+    <Item5 Ref="9" Visible="false" Description="DiaDiem" AllowNull="true" Name="DiaDiem" Type="#Ref-2" />
+    <Item6 Ref="10" Visible="false" Description="ThamGiaPhien" AllowNull="true" Name="ThamGiaPhien" Type="#Ref-7" />
+    <Item7 Ref="11" Visible="false" Description="Email" Name="Email" />
+    <Item8 Ref="12" Visible="false" Description="NhuCauViecLam" Name="NhuCauViecLam" />
+    <Item9 Ref="13" Visible="false" Description="TrangThai" AllowNull="true" Name="TrangThai" Type="#Ref-2" />
+    <Item10 Ref="14" Visible="false" Description="Type" ValueInfo="True" Name="Type" Type="#Ref-7" />
+    <Item11 Ref="15" Visible="false" Description="PageIndex" ValueInfo="0" Name="PageIndex" Type="#Ref-2" />
+    <Item12 Ref="16" Visible="false" Description="PageSize" ValueInfo="0" Name="PageSize1" Type="#Ref-2" />
+    <Item13 Ref="17" Visible="false" Description="Title1" Name="Title1" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="18" ControlType="TopMarginBand" Name="topMarginBand1" />
+    <Item2 Ref="19" ControlType="BottomMarginBand" Name="bottomMarginBand1" />
+    <Item3 Ref="20" ControlType="ReportHeaderBand" Name="reportHeaderBand1" HeightF="60">
+      <Controls>
+        <Item1 Ref="21" ControlType="XRLabel" Name="label1" Multiline="true" Text="Danh sách người lao động đăng ký tham gia phiên giao dịch việc làm" TextAlignment="TopCenter" SizeF="984,25.5533848" LocationFloat="6.00001, 6.00001" StyleName="Title" Font="Times New Roman, 14pt, style=Bold" ForeColor="Black" Padding="2,2,0,0,100">
+          <ExpressionBindings>
+            <Item1 Ref="22" Expression="?Title1" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="23" UseFont="false" UseForeColor="false" UseTextAlignment="false" />
+        </Item1>
+      </Controls>
+    </Item3>
+    <Item4 Ref="24" ControlType="GroupHeaderBand" Name="groupHeaderBand1" GroupUnion="WithFirstDetail" HeightF="48">
+      <Controls>
+        <Item1 Ref="25" ControlType="XRPanel" Name="panel1" SizeF="990,48" LocationFloat="0, 0" StyleName="DetailCaptionBackground3" BorderWidth="0">
+          <Controls>
+            <Item1 Ref="26" ControlType="XRTable" Name="table1" SizeF="989.999939,28.0000019" LocationFloat="0, 20.0000134">
+              <Rows>
+                <Item1 Ref="27" ControlType="XRTableRow" Name="tableRow1" Weight="1">
+                  <Cells>
+                    <Item1 Ref="28" ControlType="XRTableCell" Name="tableCell1" Weight="0.078501841237620273" Multiline="true" Text="STT" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="29" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item1>
+                    <Item2 Ref="30" ControlType="XRTableCell" Name="tableCell2" Weight="0.21493306862434655" Multiline="true" Text="Người lao động" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="31" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item2>
+                    <Item3 Ref="32" ControlType="XRTableCell" Name="tableCell3" Weight="0.16570304167857977" Multiline="true" Text="Số điện thoại" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="33" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item3>
+                    <Item4 Ref="34" ControlType="XRTableCell" Name="tableCell4" Weight="0.19002961540865579" Multiline="true" Text="HT tham gia&#xD;&#xA;" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="35" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item4>
+                    <Item5 Ref="36" ControlType="XRTableCell" Name="tableCell5" Weight="0.14814106291781531" Multiline="true" Text="Địa điểm" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="37" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item5>
+                    <Item6 Ref="38" ControlType="XRTableCell" Name="tableCell6" Weight="0.20042701411929714" Multiline="true" Text="Tham gia phiên" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="39" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item6>
+                    <Item7 Ref="40" ControlType="XRTableCell" Name="tableCell7" Weight="0.11099100489254563" Multiline="true" Text="Email" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="41" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item7>
+                    <Item8 Ref="42" ControlType="XRTableCell" Name="tableCell15" Weight="0.17677544842622694" Multiline="true" Text="NC làm việc" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="43" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item8>
+                    <Item9 Ref="44" ControlType="XRTableCell" Name="tableCell16" Weight="0.14968858574424243" Multiline="true" Text="Trạng thái" TextAlignment="MiddleCenter" StyleName="DetailCaption3" Font="Times New Roman, 12pt, style=Bold" Padding="2,2,0,0,100" BorderColor="Black" Borders="All" BorderWidth="1">
+                      <StylePriority Ref="45" UseFont="false" UseBorderColor="false" UseBorders="false" UseBorderWidth="false" UseTextAlignment="false" />
+                    </Item9>
+                  </Cells>
+                </Item1>
+              </Rows>
+            </Item1>
+          </Controls>
+          <StylePriority Ref="46" UseBorderWidth="false" />
+        </Item1>
+      </Controls>
+    </Item4>
+    <Item5 Ref="47" ControlType="DetailBand" Name="detailBand1" HeightF="25">
+      <Controls>
+        <Item1 Ref="48" ControlType="XRTable" Name="table2" SizeF="990,25" LocationFloat="0, 0">
+          <Rows>
+            <Item1 Ref="49" ControlType="XRTableRow" Name="tableRow2" Weight="11.5">
+              <Cells>
+                <Item1 Ref="50" ControlType="XRTableCell" Name="tableCell8" Weight="0.088042329721394724" Multiline="true" Text="tableCell8" TextAlignment="MiddleCenter" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <Summary Ref="51" Running="Report" />
+                  <ExpressionBindings>
+                    <Item1 Ref="52" Expression="sumRecordNumber([Id])" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="53" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item1>
+                <Item2 Ref="54" ControlType="XRTableCell" Name="tableCell9" Weight="0.24105431456410867" Multiline="true" Text="tableCell9" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="55" Expression="[NguoiLaoDong]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="56" UseFont="false" UseBorders="false" />
+                </Item2>
+                <Item3 Ref="57" ControlType="XRTableCell" Name="tableCell10" Weight="0.1858412656451896" Multiline="true" Text="tableCell10" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="58" Expression="[SoDienThoai]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="59" UseFont="false" UseBorders="false" />
+                </Item3>
+                <Item4 Ref="60" ControlType="XRTableCell" Name="tableCell11" Weight="0.21312433218475996" Multiline="true" Text="tableCell11" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="61" Expression="Iif([HinhThuc] == true, 'Trực tiếp' ,&#xA;&#x9;Iif([HinhThuc] == false, 'Trực tuyến' , '')&#xA;)" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="62" UseFont="false" UseBorders="false" />
+                </Item4>
+                <Item5 Ref="63" ControlType="XRTableCell" Name="tableCell12" Weight="0.16614494919529704" Multiline="true" Text="tableCell12" TextAlignment="MiddleCenter" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="64" Expression="[TenDiaDiem]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="65" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+                </Item5>
+                <Item6 Ref="66" ControlType="XRTableCell" Name="tableCell13" Weight="0.22478527592874148" Multiline="true" Text="tableCell13" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="67" Expression="Iif([HinhThuc] == true, 'Có' ,&#xA;&#x9;Iif([HinhThuc] == false, 'Không' , '')&#xA;)" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="68" UseFont="false" UseBorders="false" />
+                </Item6>
+                <Item7 Ref="69" ControlType="XRTableCell" Name="tableCell14" Weight="0.1244799522983302" Multiline="true" Text="tableCell14" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="70" Expression="[Email]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="71" UseFont="false" UseBorders="false" />
+                </Item7>
+                <Item8 Ref="72" ControlType="XRTableCell" Name="tableCell17" Weight="0.19825931140574121" Multiline="true" Text="tableCell17" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="73" Expression="[NhuCauViecLam]" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="74" UseFont="false" UseBorders="false" />
+                </Item8>
+                <Item9 Ref="75" ControlType="XRTableCell" Name="tableCell18" Weight="0.16788065813489705" Multiline="true" StyleName="DetailData3" Font="Times New Roman, 11pt" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+                  <ExpressionBindings>
+                    <Item1 Ref="76" Expression="Iif([Type] == true, &#xA;Iif([TrangThai] == 1, &#xA;'Đã xác nhận' , &#xA;'Chờ xác nhận')&#xA;, &#xA;Iif([TrangThai] == 1, &#xA;'Chờ xác nhận' , &#xA;Iif([TrangThai] == 2, &#xA;'Tham gia' , &#xA;'Từ chối')&#xA;)&#xA;)" PropertyName="Text" EventName="BeforePrint" />
+                  </ExpressionBindings>
+                  <StylePriority Ref="77" UseFont="false" UseBorders="false" />
+                </Item9>
+              </Cells>
+            </Item1>
+          </Rows>
+        </Item1>
+      </Controls>
+    </Item5>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="78" Name="Title" BorderStyle="Inset" Font="Tahoma, 14pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="79" Name="DetailCaption3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item3 Ref="80" Name="DetailData3" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" />
+    <Item4 Ref="81" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Tahoma, 8pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="82" Name="DetailCaptionBackground3" BorderStyle="Inset" BackColor="Transparent" BorderColor="255,206,206,206" Sides="Top" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="2" />
+    <Item6 Ref="83" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Tahoma, 8pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v19.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkRlZmF1bHRDb25uZWN0aW9uIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJTdG9yZWRQcm9jUXVlcnkiIE5hbWU9IlBHRF9TZXNzaW9uRGV0YWlsX0xhYm9yZXJHZXRMaXN0Ij48UGFyYW1ldGVyIE5hbWU9IkBQaGllbklkIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/UGhpZW5JZCk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBUZW4iIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/VGVuKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQFNvRGllblRob2FpIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSkoP1NvRGllblRob2FpKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQEhpbmhUaHVjIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5Cb29sZWFuLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkpKD9IaW5oVGh1Yyk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBEaWFEaWVtIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/RGlhRGllbSk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBUaGFtR2lhUGhpZW4iIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkJvb2xlYW4sIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSkoP1RoYW1HaWFQaGllbik8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBUeXBlIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5Cb29sZWFuLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkpKD9UeXBlKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQEVtYWlsIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5TdHJpbmcsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSkoP0VtYWlsKTwvUGFyYW1ldGVyPjxQYXJhbWV0ZXIgTmFtZT0iQE5odUNhdVZpZWNMYW0iIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLlN0cmluZywgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/Tmh1Q2F1VmllY0xhbSk8L1BhcmFtZXRlcj48UGFyYW1ldGVyIE5hbWU9IkBUcmFuZ1RoYWkiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkpKD9UcmFuZ1RoYWkpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAUGFnZVNpemUiIFR5cGU9IkRldkV4cHJlc3MuRGF0YUFjY2Vzcy5FeHByZXNzaW9uIj4oU3lzdGVtLkludDMyLCBtc2NvcmxpYiwgVmVyc2lvbj00LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkpKD9QYWdlU2l6ZTEpPC9QYXJhbWV0ZXI+PFBhcmFtZXRlciBOYW1lPSJAUGFnZUluZGV4IiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/UGFnZUluZGV4KTwvUGFyYW1ldGVyPjxQcm9jTmFtZT5QR0RfU2Vzc2lvbkRldGFpbF9MYWJvcmVyR2V0TGlzdDwvUHJvY05hbWU+PC9RdWVyeT48UmVzdWx0U2NoZW1hPjxEYXRhU2V0IE5hbWU9InNxbERhdGFTb3VyY2UxIj48VmlldyBOYW1lPSJQR0RfU2Vzc2lvbkRldGFpbF9MYWJvcmVyR2V0TGlzdCI+PEZpZWxkIE5hbWU9IklkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iUGhpZW5HaWFvRGljaElkIiBUeXBlPSJJbnQzMiIgLz48RmllbGQgTmFtZT0iTmd1b2lMYW9Eb25nSWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJVbmdWaWVuSWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJUeXBlIiBUeXBlPSJCb29sZWFuIiAvPjxGaWVsZCBOYW1lPSJUcmFuZ1RoYWkiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJUaGFtR2lhUGhpZW4iIFR5cGU9IkJvb2xlYW4iIC8+PEZpZWxkIE5hbWU9IkhpbmhUaHVjIiBUeXBlPSJCb29sZWFuIiAvPjxGaWVsZCBOYW1lPSJEaWVtU2FuSWQiIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJOZ3VvaVRhbyIgVHlwZT0iSW50MzIiIC8+PEZpZWxkIE5hbWU9Ik5nYXlUYW8iIFR5cGU9IkRhdGVUaW1lIiAvPjxGaWVsZCBOYW1lPSJOZ3VvaUxhb0RvbmciIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iU29EaWVuVGhvYWkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iVGVuRGlhRGllbSIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJFbWFpbCIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJOaHVDYXVWaWVjTGFtIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9IlRvdGFsUmVjb3JkcyIgVHlwZT0iSW50MzIiIC8+PC9WaWV3PjwvRGF0YVNldD48L1Jlc3VsdFNjaGVtYT48Q29ubmVjdGlvbk9wdGlvbnMgQ2xvc2VDb25uZWN0aW9uPSJ0cnVlIiAvPjwvU3FsRGF0YVNvdXJjZT4=" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v19.1" Ref="2" Content="System.Int32" Type="System.Type" />
+    <Item2 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v19.1" Ref="7" Content="System.Boolean" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server=14.177.236.88,1434;Database=QLNV_VLHN;Persist Security Info=True;User ID=vlhn;Password=12345678@a;" Microsoft.EntityFrameworkCore.SqlServer -Context "SV_DBContext" -force

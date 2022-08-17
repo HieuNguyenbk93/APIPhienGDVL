@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XtraReportsLayoutSerializer SerializerVersion="19.1.3.0" Ref="1" ControlType="DevExpress.XtraReports.UI.XtraReport, DevExpress.XtraReports.v19.1, Version=19.1.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Name="PhiengiaodichDN" Landscape="true" Margins="98, 100, 33, 27" PaperKind="A3" PageWidth="1654" PageHeight="1169" Version="19.1" DataMember="PGD_PhienGiaoDich_GetListDoanhNghiep_Export" DataSource="#Ref-0" Font="Arial, 9.75pt">
+  <Parameters>
+    <Item1 Ref="3" Visible="false" Description="Id" ValueInfo="1" Name="Id" Type="#Ref-2" />
+    <Item2 Ref="5" Visible="false" Description="tittle" AllowNull="true" Name="tittle" />
+  </Parameters>
+  <Bands>
+    <Item1 Ref="6" ControlType="TopMarginBand" Name="TopMargin" HeightF="33" />
+    <Item2 Ref="7" ControlType="BottomMarginBand" Name="BottomMargin" HeightF="27.4995422" />
+    <Item3 Ref="8" ControlType="ReportHeaderBand" Name="ReportHeader" HeightF="132.166641">
+      <Controls>
+        <Item1 Ref="9" ControlType="XRLabel" Name="lbltittle" Multiline="true" TextAlignment="MiddleCenter" SizeF="1456,23.0000076" LocationFloat="5.086263E-05, 79.50002" Font="Times New Roman, 13.8pt, style=Bold, charSet=0" BackColor="255,0,192,192" Padding="2,2,0,0,100" BorderColor="Red">
+          <ExpressionBindings>
+            <Item1 Ref="10" Expression="?tittle" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="11" UseFont="false" UseBackColor="false" UseBorderColor="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="12" ControlType="XRLabel" Name="label2" Multiline="true" Text="SỞ LAO ĐỘNG TB&amp;XH HÀ NỘI" SizeF="1456,23" LocationFloat="0, 0" Font="Times New Roman, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="13" UseFont="false" />
+        </Item2>
+        <Item3 Ref="14" ControlType="XRLabel" Name="label3" Multiline="true" Text="TRUNG TÂM DỊCH VỤ VIỆC LÀM" SizeF="1456,23.0000019" LocationFloat="5.086263E-05, 22.999979" Font="Times New Roman, 16.2pt, style=Bold, charSet=0" Padding="2,2,0,0,100">
+          <StylePriority Ref="15" UseFont="false" />
+        </Item3>
+      </Controls>
+    </Item3>
+    <Item4 Ref="16" ControlType="GroupHeaderBand" Name="GroupHeader1" GroupUnion="WithFirstDetail" HeightF="69.66932">
+      <Controls>
+        <Item1 Ref="17" ControlType="XRLabel" Name="label6" KeepTogether="true" Multiline="true" CanGrow="false" Text="Địa chỉ" TextAlignment="MiddleCenter" SizeF="260.8333,69.66759" LocationFloat="514.166565, 0.00172932947" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="18" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="19" ControlType="XRLabel" Name="label7" KeepTogether="true" Multiline="true" CanGrow="false" Text="Điện thoại" TextAlignment="MiddleCenter" SizeF="89.9996948,69.66759" LocationFloat="774.9999, 0" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="20" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="21" ControlType="XRLabel" Name="label8" KeepTogether="true" Multiline="true" CanGrow="false" Text="Vị trí trúng tuyển" TextAlignment="MiddleCenter" SizeF="146.666443,69.6661148" LocationFloat="864.9997, 0" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="22" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="23" ControlType="XRLabel" Name="label9" KeepTogether="true" Multiline="true" CanGrow="false" Text="Chỉ tiêu" TextAlignment="MiddleCenter" SizeF="55.0003662,69.66759" LocationFloat="1011.66614, 0.00172932947" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="24" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="25" ControlType="XRLabel" Name="label10" KeepTogether="true" Multiline="true" CanGrow="false" Text="Yêu cầu" TextAlignment="MiddleCenter" SizeF="295,28.8334923" LocationFloat="1066.6665, 0" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="26" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="27" ControlType="XRLabel" Name="label11" KeepTogether="true" Multiline="true" CanGrow="false" Text="Tuổi&#xD;&#xA;" TextAlignment="MiddleCenter" SizeF="42.5002441,40.83333" LocationFloat="1066.6665, 28.8346615" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="28" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="29" ControlType="XRLabel" Name="label12" KeepTogether="true" Multiline="true" CanGrow="false" Text="Trình độ" TextAlignment="MiddleCenter" SizeF="62.5,40.83333" LocationFloat="1109.16687, 28.8346615" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="30" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="31" ControlType="XRLabel" Name="label13" KeepTogether="true" Multiline="true" CanGrow="false" Text="Chuyên ngành đào tạo" TextAlignment="MiddleCenter" SizeF="115.833008,40.8329163" LocationFloat="1171.66687, 28.8346615" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="32" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="33" ControlType="XRLabel" Name="label14" KeepTogether="true" Multiline="true" CanGrow="false" Text="Yêu cầu khác" TextAlignment="MiddleCenter" SizeF="74.16675,40.83293" LocationFloat="1287.49976, 28.83349" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="34" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="35" ControlType="XRLabel" Name="label15" KeepTogether="true" Multiline="true" CanGrow="false" Text="Mức lương (thu nhập) VNĐ/tháng" TextAlignment="MiddleCenter" SizeF="94.3334961,69.6661148" LocationFloat="1361.6665, 0" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="36" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="37" ControlType="XRLabel" Name="label5" KeepTogether="true" Multiline="true" CanGrow="false" Text="Lĩnh vực hoạt động&#xD;&#xA;" TextAlignment="MiddleCenter" SizeF="204.166382,69.6658554" LocationFloat="310.000183, 0.00172932947" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="38" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="39" ControlType="XRLabel" Name="label4" KeepTogether="true" Multiline="true" CanGrow="false" Text="Tên Đơn Vị&#xD;&#xA;" TextAlignment="MiddleCenter" SizeF="263.333435,69.6661148" LocationFloat="46.6667442, 0" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="40" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item12>
+        <Item13 Ref="41" ControlType="XRLabel" Name="label1" KeepTogether="true" Multiline="true" CanGrow="false" Text="STT" TextAlignment="MiddleCenter" SizeF="46.6666641,69.6658554" LocationFloat="7.62939453E-05, 0.00172932947" Font="Times New Roman, 12pt, style=Bold, charSet=0" BackColor="Transparent" Padding="2,2,0,0,100" Borders="All">
+          <StylePriority Ref="42" UseFont="false" UseBackColor="false" UseBorders="false" UseTextAlignment="false" />
+        </Item13>
+      </Controls>
+    </Item4>
+    <Item5 Ref="43" ControlType="DetailBand" Name="Detail" HeightF="36.333313" Borders="All">
+      <Controls>
+        <Item1 Ref="44" ControlType="XRLabel" Name="label27" Multiline="true" CanGrow="false" Text="label27" TextAlignment="MiddleRight" SizeF="94.3334961,36.3332863" LocationFloat="1361.6665, 0" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="45" Expression="[MucLuong]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="46" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item1>
+        <Item2 Ref="47" ControlType="XRLabel" Name="label26" Multiline="true" CanGrow="false" Text="label26" TextAlignment="MiddleLeft" SizeF="74.16675,36.3332367" LocationFloat="1287.49976, 0" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="48" Expression="[YeuCauKhac]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="49" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item2>
+        <Item3 Ref="50" ControlType="XRLabel" Name="label25" Multiline="true" CanGrow="false" Text="label25" TextAlignment="MiddleLeft" SizeF="115.832886,36.3332634" LocationFloat="1171.66687, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="51" Expression="[chuyennganhdaotao]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="52" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item3>
+        <Item4 Ref="53" ControlType="XRLabel" Name="label24" Multiline="true" CanGrow="false" Text="label24" TextAlignment="MiddleLeft" SizeF="62.5001221,36.33326" LocationFloat="1109.16687, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="54" Expression="[trinhdo]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="55" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item4>
+        <Item5 Ref="56" ControlType="XRLabel" Name="label23" Multiline="true" CanGrow="false" Text="label23" TextAlignment="MiddleRight" SizeF="42.50006,36.3332634" LocationFloat="1066.66687, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="57" Expression="[Tuoi]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="58" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item5>
+        <Item6 Ref="59" ControlType="XRLabel" Name="label22" Multiline="true" CanGrow="false" Text="label22" TextAlignment="MiddleRight" SizeF="55.0003052,36.3332634" LocationFloat="1011.66656, 0" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="60" Expression="[chitieutuyen]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="61" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item6>
+        <Item7 Ref="62" ControlType="XRLabel" Name="label21" Multiline="true" CanGrow="false" Text="label21" TextAlignment="MiddleLeft" SizeF="146.6665,36.3332634" LocationFloat="865, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="63" Expression="[vitrituyen]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="64" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item7>
+        <Item8 Ref="65" ControlType="XRLabel" Name="label20" Multiline="true" CanGrow="false" Text="label20" TextAlignment="MiddleRight" SizeF="89.9997559,36.3332634" LocationFloat="775.0003, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="66" Expression="[sodienthoai]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="67" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item8>
+        <Item9 Ref="68" ControlType="XRLabel" Name="label19" Multiline="true" CanGrow="false" Text="label19" TextAlignment="MiddleLeft" SizeF="260.833374,36.3332634" LocationFloat="514.167, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="69" Expression="[DiaChi]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="70" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item9>
+        <Item10 Ref="71" ControlType="XRLabel" Name="label18" Multiline="true" CanGrow="false" Text="label18" TextAlignment="MiddleLeft" SizeF="204.166809,26.3332634" LocationFloat="310.000183, 10" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="72" Expression="[linhvuchoatdong]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="73" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item10>
+        <Item11 Ref="74" ControlType="XRLabel" Name="label17" Multiline="true" CanGrow="false" Text="label17" TextAlignment="MiddleLeft" SizeF="263.333435,36.3332634" LocationFloat="46.6667671, 5.086263E-05" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="75" Expression="[tendonvi]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="76" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item11>
+        <Item12 Ref="77" ControlType="XRLabel" Name="label16" Multiline="true" CanGrow="false" Text="label16" TextAlignment="MiddleCenter" SizeF="46.66669,36.3332634" LocationFloat="5.086263E-05, 0" Font="Times New Roman, 12pt, charSet=0" Padding="2,2,0,0,100" Borders="Left, Right, Bottom">
+          <ExpressionBindings>
+            <Item1 Ref="78" Expression="[STT]" PropertyName="Text" EventName="BeforePrint" />
+          </ExpressionBindings>
+          <StylePriority Ref="79" UseFont="false" UseBorders="false" UseTextAlignment="false" />
+        </Item12>
+      </Controls>
+      <StylePriority Ref="80" UseBorders="false" />
+    </Item5>
+  </Bands>
+  <StyleSheet>
+    <Item1 Ref="81" Name="Title" BorderStyle="Inset" Font="Arial, 14.25pt" ForeColor="255,75,75,75" BackColor="Transparent" BorderColor="Black" Sides="None" StringFormat="Near;Near;0;None;Character;Default" BorderWidthSerializable="1" />
+    <Item2 Ref="82" Name="DetailCaption1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="White" BackColor="255,75,75,75" BorderColor="White" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item3 Ref="83" Name="DetailData1" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BorderColor="Transparent" Sides="Left" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="2" />
+    <Item4 Ref="84" Name="DetailData3_Odd" BorderStyle="Inset" Padding="6,6,0,0,100" Font="Arial, 8.25pt" ForeColor="Black" BackColor="255,231,231,231" BorderColor="Transparent" Sides="None" StringFormat="Near;Center;0;None;Character;Default" TextAlignment="MiddleLeft" BorderWidthSerializable="1" />
+    <Item5 Ref="85" Name="PageInfo" BorderStyle="Inset" Padding="2,2,0,0,100" Font="Arial, 8.25pt, style=Bold" ForeColor="255,75,75,75" StringFormat="Near;Near;0;None;Character;Default" />
+  </StyleSheet>
+  <ComponentStorage>
+    <Item1 Ref="0" ObjectType="DevExpress.DataAccess.Sql.SqlDataSource,DevExpress.DataAccess.v19.1" Name="sqlDataSource1" Base64="PFNxbERhdGFTb3VyY2UgTmFtZT0ic3FsRGF0YVNvdXJjZTEiPjxDb25uZWN0aW9uIE5hbWU9IkRlZmF1bHRDb25uZWN0aW9uIiBGcm9tQXBwQ29uZmlnPSJ0cnVlIiAvPjxRdWVyeSBUeXBlPSJTdG9yZWRQcm9jUXVlcnkiIE5hbWU9IlBHRF9QaGllbkdpYW9EaWNoX0dldExpc3REb2FuaE5naGllcF9FeHBvcnQiPjxQYXJhbWV0ZXIgTmFtZT0iQElkIiBUeXBlPSJEZXZFeHByZXNzLkRhdGFBY2Nlc3MuRXhwcmVzc2lvbiI+KFN5c3RlbS5JbnQzMiwgbXNjb3JsaWIsIFZlcnNpb249NC4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5KSg/SWQpPC9QYXJhbWV0ZXI+PFByb2NOYW1lPlBHRF9QaGllbkdpYW9EaWNoX0dldExpc3REb2FuaE5naGllcF9FeHBvcnQ8L1Byb2NOYW1lPjwvUXVlcnk+PFJlc3VsdFNjaGVtYT48RGF0YVNldCBOYW1lPSJzcWxEYXRhU291cmNlMSI+PFZpZXcgTmFtZT0iUEdEX1BoaWVuR2lhb0RpY2hfR2V0TGlzdERvYW5oTmdoaWVwX0V4cG9ydCI+PEZpZWxkIE5hbWU9IlNUVCIgVHlwZT0iSW50NjQiIC8+PEZpZWxkIE5hbWU9InRlbmRvbnZpIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9Imxpbmh2dWNob2F0ZG9uZyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJEaWFDaGkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0ic29kaWVudGhvYWkiIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0idml0cml0dXllbiIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJjaGl0aWV1dHV5ZW4iIFR5cGU9IkludDMyIiAvPjxGaWVsZCBOYW1lPSJUdW9pIiBUeXBlPSJTdHJpbmciIC8+PEZpZWxkIE5hbWU9InRyaW5oZG8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iY2h1eWVubmdhbmhkYW90YW8iIFR5cGU9IlN0cmluZyIgLz48RmllbGQgTmFtZT0iWWV1Q2F1S2hhYyIgVHlwZT0iU3RyaW5nIiAvPjxGaWVsZCBOYW1lPSJNdWNMdW9uZyIgVHlwZT0iQnl0ZSIgLz48L1ZpZXc+PC9EYXRhU2V0PjwvUmVzdWx0U2NoZW1hPjxDb25uZWN0aW9uT3B0aW9ucyBDbG9zZUNvbm5lY3Rpb249InRydWUiIC8+PC9TcWxEYXRhU291cmNlPg==" />
+  </ComponentStorage>
+  <ObjectStorage>
+    <Item1 ObjectType="DevExpress.XtraReports.Serialization.ObjectStorageInfo, DevExpress.XtraReports.v19.1" Ref="2" Content="System.Int32" Type="System.Type" />
+  </ObjectStorage>
+</XtraReportsLayoutSerializer>

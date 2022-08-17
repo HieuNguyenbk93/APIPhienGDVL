@@ -1,0 +1,216 @@
+//Quản trị hệ thống
+//Quản trị cơ cấu tổ chức
+public const string Xemcocautochuc = "A_I_0"; // Xem cơ cấu tổ chức
+public const string Themmoiphongban = "A_I_1"; // Thêm mới phòng ban
+public const string Suathongtinphongban = "A_I_2"; // Sửa thông tin phòng ban
+public const string Xoaphongban = "A_I_3"; // Xóa phòng ban
+//Quản trị người dùng
+public const string Themmoinguoidung = "A_II_0"; // Thêm mới người dùng
+public const string Xoanguoidung = "A_II_1"; // Xóa người dùng
+public const string Suanguoidung = "A_II_2"; // Sửa người dùng
+public const string Khoa/mokhoanguoidung = "A_II_3"; // Khóa/mở khoá người dùng
+public const string Xemdanhsachnguoidung = "A_II_4"; // Xem danh sách người dùng
+public const string Thietlapmatkhaucuanguoidung = "A_II_5"; // Thiết lập mật khẩu của người dùng
+//Quản lý vai trò
+public const string Xemdanhsachvaitrocuahethong = "A_III_0"; // Xem danh sách vai trò của hệ thống
+public const string Themmoivaitrochohethong = "A_III_1"; // Thêm mới vai trò cho hệ thống
+public const string Suathongtinvaitro = "A_III_2"; // Sửa thông tin vai trò
+public const string Xoathongtinvaitro = "A_III_3"; // Xóa thông tin vai trò
+//Quản lý lịch sử hệ thống
+public const string Xemdanhsachlichsuhethong = "A_IV_0"; // Xem danh sách lịch sử hệ thống
+public const string Xoalichsuhethong = "A_IV_1"; // Xóa lịch sử hệ thống
+//Dashboard
+public const string Nhaplieu = "A_V_0"; // Nhập liệu
+public const string Kiemduyetthongtin = "A_V_1"; // Kiểm duyệt thông tin
+public const string Lanhdao/Quanly = "A_V_2"; // Lãnh đạo/Quản lý
+public const string Cungung/Gioithieuvieclam = "A_V_3"; // Cung ứng/Giới thiệu việc làm
+//Cấu hình biểu đồ thống kê
+public const string Capnhatthongtincauhinh = "A_VI_0"; // Cập nhật thông tin cấu hình
+public const string Xemdanhsachcauhinh = "A_VI_1"; // Xem danh sách cấu hình
+//Cấu hình email
+public const string Capnhatthongtincauhinh = "A_VII_0"; // Cập nhật thông tin cấu hình
+//Cấu hình trang chủ
+public const string Capnhatthongtincauhinh = "A_VIII_0"; // Cập nhật thông tin cấu hình
+//Cấu hình biểu mẫu
+public const string Xemdanhsachcauhinh = "A_IX_0"; // Xem danh sách cấu hình
+public const string Capnhatthongtincauhinhmasonguoitimviec = "A_IX_1"; // Cập nhật thông tin cấu hình mã số người tìm việc
+public const string Capnhatthongtincauhinhmasovieclamtrong = "A_IX_2"; // Cập nhật thông tin cấu hình mã số việc làm trống
+//Quản lý danh mục
+//Quản lý danh mục dân tộc
+public const string Themmoidanhmucdantoc = "B_I_0"; // Thêm mới danh mục dân tộc
+public const string Suadanhmucdantoc = "B_I_1"; // Sửa danh mục dân tộc
+public const string Xoadanhmucdantoc = "B_I_2"; // Xóa danh mục dân tộc
+public const string Xemdanhmucdantoc = "B_I_3"; // Xem danh mục dân tộc
+//Quản lý danh mục hành chính địa phương
+public const string Themmoidanhmuchanhchinhdiaphuong = "B_II_0"; // Thêm mới danh mục hành chính địa phương
+public const string Suadanhmuchanhchinhdiaphuong = "B_II_1"; // Sửa danh mục hành chính địa phương
+public const string Xoadanhmuchanhchinhdiaphuong = "B_II_2"; // Xóa danh mục hành chính địa phương
+public const string Xemdanhmuchanhchinhdiaphuong = "B_II_3"; // Xem danh mục hành chính địa phương
+//Quản lý danh mục đối tượng ưu tiên
+public const string Themmoidanhmucdoituonguutien = "B_III_0"; // Thêm mới danh mục đối tượng ưu tiên
+public const string Suadanhmucdoituonguutien = "B_III_1"; // Sửa danh mục đối tượng ưu tiên
+public const string Xoadanhmucdoituonguutien = "B_III_2"; // Xóa danh mục đối tượng ưu tiên
+public const string Xemdanhmucdoituonguutien = "B_III_3"; // Xem danh mục đối tượng ưu tiên
+//Quản lý danh mục trình độ kỹ năng
+public const string Themdanhmuctrinhdokynang = "B_IV_0"; // Thêm danh mục trình độ kỹ năng
+public const string Suadanhmuctrinhdokynang = "B_IV_1"; // Sửa danh mục trình độ kỹ năng
+public const string Xoadanhmuctrinhdokynang = "B_IV_2"; // Xóa danh mục trình độ kỹ năng
+public const string Xemdanhmuctrinhdokynang = "B_IV_3"; // Xem danh mục trình độ kỹ năng
+//Quản lý danh mục chức vụ
+public const string Themdanhmucchucvu = "B_V_0"; // Thêm danh mục chức vụ
+public const string Suadanhmucchucvu = "B_V_1"; // Sửa danh mục chức vụ
+public const string Xoadanhmucchucvu = "B_V_2"; // Xóa danh mục chức vụ
+public const string Xemdanhmucchucvu = "B_V_3"; // Xem danh mục chức vụ
+//Quản lý danh mục chức vụ người lao động
+public const string Themdanhmucchucvunguoilaodong = "B_VI_0"; // Thêm danh mục chức vụ người lao động
+public const string Suadanhmucchucvunguoilaodong = "B_VI_1"; // Sửa danh mục chức vụ người lao động
+public const string Xoadanhmucchucvunguoilaodong = "B_VI_2"; // Xóa danh mục chức vụ người lao động
+public const string Xemdanhmucchucvunguoilaodong = "B_VI_3"; // Xem danh mục chức vụ người lao động
+//Quản lý danh mục chức danh công việc
+public const string Themdanhmucchucdanhcongviec = "B_VII_0"; // Thêm danh mục chức danh công việc
+public const string Suadanhmucchucdanhcongviec = "B_VII_1"; // Sửa danh mục chức danh công việc
+public const string Xoadanhmucchucdanhcongviec = "B_VII_2"; // Xóa danh mục chức danh công việc
+public const string Xemdanhmucchucdanhcongviec = "B_VII_3"; // Xem danh mục chức danh công việc
+//Quản lý danh mục kỹ năng mềm
+public const string Themdanhmuckynangmem = "B_VIII_0"; // Thêm danh mục kỹ năng mềm
+public const string Suadanhmuckynangmem = "B_VIII_1"; // Sửa danh mục kỹ năng mềm
+public const string Xoadanhmuckynangmem = "B_VIII_2"; // Xóa danh mục kỹ năng mềm
+public const string Xemdanhmuckynangmem = "B_VIII_3"; // Xem danh mục kỹ năng mềm
+//Quản lý danh mục loại hình doanh nghiệp
+public const string Themdanhmucloaihinhdoanhnghiep = "B_IX_0"; // Thêm danh mục loại hình doanh nghiệp
+public const string Suadanhmucloaihinhdoanhnghiep = "B_IX_1"; // Sửa danh mục loại hình doanh nghiệp
+public const string Xoadanhmucloaihinhdoanhnghiep = "B_IX_2"; // Xóa danh mục loại hình doanh nghiệp
+public const string Xemdanhmucloaihinhdoanhnghiep = "B_IX_3"; // Xem danh mục loại hình doanh nghiệp
+//Quản lý danh mục kinh nghiệm làm việc
+public const string Themdanhmuckinhnghiemlamviec = "B_X_0"; // Thêm danh mục kinh nghiệm làm việc
+public const string Suadanhmuckinhnghiemlamviec = "B_X_1"; // Sửa danh mục kinh nghiệm làm việc
+public const string Xoadanhmuckinhnghiemlamviec = "B_X_2"; // Xóa danh mục kinh nghiệm làm việc
+public const string Xemdanhmuckinhnghiemlamviec = "B_X_3"; // Xem danh mục kinh nghiệm làm việc
+//Quản lý danh mục chế độ phúc lợi
+public const string Themdanhmucchedophucloi = "B_XI_0"; // Thêm danh mục chế độ phúc lợi
+public const string Suadanhmucchedophucloi = "B_XI_1"; // Sửa danh mục chế độ phúc lợi
+public const string Xoadanhmucchedophucloi = "B_XI_2"; // Xóa danh mục chế độ phúc lợi
+public const string Xemdanhmucchedophucloi = "B_XI_3"; // Xem danh mục chế độ phúc lợi
+//Quản lý danh mục loại bảo hiểm 
+public const string Themdanhmucbaohiem = "B_XII_0"; // Thêm danh mục bảo hiểm
+public const string Suadanhmucbaohiem = "B_XII_1"; // Sửa danh mục bảo hiểm
+public const string Xoadanhmucbaohiem = "B_XII_2"; // Xóa danh mục bảo hiểm
+public const string Xemdanhmucbaohiem = "B_XII_3"; // Xem danh mục bảo hiểm
+//Quản lý danh mục ngành kinh doanh
+public const string Themdanhmucnganhkinhdoanh = "B_XIII_0"; // Thêm danh mục ngành kinh doanh
+public const string Suadanhmucnganhkinhdoanh = "B_XIII_1"; // Sửa danh mục ngành kinh doanh
+public const string Xoadanhmucnganhkinhdoanh = "B_XIII_2"; // Xóa danh mục ngành kinh doanh
+public const string Xemdanhmucnganhkinhdoanh = "B_XIII_3"; // Xem danh mục ngành kinh doanh
+//Quản lý danh mục ngành kinh tế ưu tiên
+public const string Themdanhmucnganhkinhteuutien = "B_XIV_0"; // Thêm danh mục ngành kinh tế ưu tiên
+public const string Suadanhmucnganhkinhteuutien = "B_XIV_1"; // Sửa danh mục ngành kinh tế ưu tiên
+public const string Xoadanhmucnganhkinhteuutien = "B_XIV_2"; // Xóa danh mục ngành kinh tế ưu tiên
+public const string Xemdanhmucnganhkinhteuutien = "B_XIV_3"; // Xem danh mục ngành kinh tế ưu tiên
+//Quản lý danh mục ngành nghề
+public const string Themdanhmucnganhnghe = "B_XV_0"; // Thêm danh mục ngành nghề
+public const string Suadanhmucnganhnghe = "B_XV_1"; // Sửa danh mục ngành nghề
+public const string Xoadanhmucnganhnghe = "B_XV_2"; // Xóa danh mục ngành nghề
+public const string Xemdanhmucnganhnghe = "B_XV_3"; // Xem danh mục ngành nghề
+//Quản lý chuyên mục
+public const string Themmoichuyenmuc = "B_XVI_0"; // Thêm mới chuyên mục
+public const string Suachuyenmuc = "B_XVI_1"; // Sửa chuyên mục
+public const string Xoachuyenmuc = "B_XVI_2"; // Xóa chuyên mục
+public const string Xemchuyenmuc = "B_XVI_3"; // Xem chuyên mục
+//Việc làm trống
+//Hồ sơ việc làm trống
+public const string Themmoivieclamtrong = "C_I_0"; // Thêm mới việc làm trống
+public const string Suathongtinvieclamtrong = "C_I_1"; // Sửa thông tin việc làm trống
+public const string Xoavieclamtrong = "C_I_2"; // Xóa việc làm trống
+public const string Xemdanhsachvieclamtrong = "C_I_3"; // Xem danh sách việc làm trống
+public const string Khoa/mokhoavieclamtrong = "C_I_4"; // Khoá/mở khoá việc làm trống
+//Danh sách nhập liệu
+public const string Themmoivieclamtrong = "C_II_0"; // Thêm mới việc làm trống
+public const string Suathongtinvieclamtrong = "C_II_1"; // Sửa thông tin việc làm trống
+public const string Xoavieclamtrong = "C_II_2"; // Xóa việc làm trống
+public const string Xemdanhsachvieclamtrong = "C_II_3"; // Xem danh sách việc làm trống
+//Danh sách cần kiểm duyệt
+public const string Themmoivieclamtrong = "C_III_0"; // Thêm mới việc làm trống
+public const string Suathongtinvieclamtrong = "C_III_1"; // Sửa thông tin việc làm trống
+public const string Xoavieclamtrong = "C_III_2"; // Xóa việc làm trống
+public const string Xemdanhsachvieclamtrong = "C_III_3"; // Xem danh sách việc làm trống
+public const string Pheduyetvieclamtrong = "C_III_4"; // Phê duyệt việc làm trống
+public const string Tuchoivieclamtrong = "C_III_5"; // Từ chối việc làm trống
+public const string Khoa/mokhoavieclamtrong = "C_III_6"; // Khoá/mở khoá việc làm trống
+//Danh sách xác nhận trùng lặp
+public const string Suathongtinvieclamtrong = "C_IV_0"; // Sửa thông tin việc làm trống
+public const string Xemdanhsachvieclamtrong = "C_IV_1"; // Xem danh sách việc làm trống
+public const string Pheduyetvieclamtrong = "C_IV_2"; // Phê duyệt việc làm trống
+public const string Tuchoivieclamtrong = "C_IV_3"; // Từ chối việc làm trống
+//Danh sách trùng lặp
+public const string Xoavieclamtrong = "C_V_0"; // Xóa việc làm trống
+public const string Xemdanhsachvieclamtrong = "C_V_1"; // Xem danh sách việc làm trống
+//Hồ sơ online
+public const string Tiepnhanhosoonline = "C_VI_0"; // Tiếp nhận hồ sơ online
+public const string Xemdanhsachhosoonline = "C_VI_1"; // Xem danh sách hồ sơ online
+//Người tìm việc
+//Hồ sơ người tìm việc
+public const string Themmoinguoitimviec = "D_I_0"; // Thêm mới người tìm việc
+public const string Suathongtinnguoitimviec = "D_I_1"; // Sửa thông tin người tìm việc
+public const string Xoanguoitimviec = "D_I_2"; // Xóa người tìm việc
+public const string Xemdanhsachnguoitimviec = "D_I_3"; // Xem danh sách người tìm việc
+public const string Khoa/mokhoanguoitimviec = "D_I_4"; // Khoá/mở khoá người tìm việc
+//Danh sách nhập liệu
+public const string Themmoinguoitimviec = "D_II_0"; // Thêm mới người tìm việc
+public const string Suathongtinnguoitimviec = "D_II_1"; // Sửa thông tin người tìm việc
+public const string Xoanguoitimviec = "D_II_2"; // Xóa người tìm việc
+public const string Xemdanhsachnguoitimviec = "D_II_3"; // Xem danh sách người tìm việc
+//Danh sách cần kiểm duyệt
+public const string Themmoinguoitimviec = "D_III_0"; // Thêm mới người tìm việc
+public const string Suathongtinnguoitimviec = "D_III_1"; // Sửa thông tin người tìm việc
+public const string Xoanguoitimviec = "D_III_2"; // Xóa người tìm việc
+public const string Xemdanhsachnguoitimviec = "D_III_3"; // Xem danh sách người tìm việc
+public const string Pheduyetnguoitimviec = "D_III_4"; // Phê duyệt người tìm việc
+public const string Tuchoinguoitimviec = "D_III_5"; // Từ chối người tìm việc
+public const string Khoa/mokhoanguoitimviec = "D_III_6"; // Khoá/mở khoá người tìm việc
+//Danh sách xác nhận trùng lặp
+public const string Suathongtinnguoitimviec = "D_IV_0"; // Sửa thông tin người tìm việc
+public const string Xemdanhsachnguoitimviec = "D_IV_1"; // Xem danh sách người tìm việc
+public const string Pheduyetnguoitimviec = "D_IV_2"; // Phê duyệt người tìm việc
+public const string Tuchoinguoitimviec = "D_IV_3"; // Từ chối người tìm việc
+//Danh sách trùng lặp
+public const string Xoanguoitimviec = "D_V_0"; // Xóa người tìm việc
+public const string Xemdanhsachnguoitimviec = "D_V_1"; // Xem danh sách người tìm việc
+//Hồ sơ online
+public const string Tiepnhanhosoonline = "D_VI_0"; // Tiếp nhận hồ sơ online
+public const string Xemdanhsachhosoonline = "D_VI_1"; // Xem danh sách hồ sơ online
+//Nhà tuyển dụng/Ứng viên
+//Danh sách nhà tuyển dụng
+public const string Themmoinhatuyendung = "E_I_0"; // Thêm mới nhà tuyển dụng
+public const string Suathongtinnhatuyendung = "E_I_1"; // Sửa thông tin nhà tuyển dụng
+public const string Xoanhatuyendung = "E_I_2"; // Xóa nhà tuyển dụng
+public const string Xemdanhsachnhatuyendung = "E_I_3"; // Xem danh sách nhà tuyển dụng
+//Danh sách nhà ứng viên
+public const string Themmoiungvien = "E_II_0"; // Thêm mới ứng viên
+public const string Suathongtinungvien = "E_II_1"; // Sửa thông tin ứng viên
+public const string Xoaungvien = "E_II_2"; // Xóa ứng viên
+public const string Xemdanhsachungvien = "E_II_3"; // Xem danh sách ứng viên
+//Tin tức
+//Danh sách tin tức
+public const string Themmoitintuc = "F_I_0"; // Thêm mới tin tức
+public const string Suathongtintintuc = "F_I_1"; // Sửa thông tin tin tức
+public const string Xoatintuc = "F_I_2"; // Xóa tin tức
+public const string Xemdanhsachtintuc = "F_I_3"; // Xem danh sách tin tức
+//Cung ứng
+//Hồ sơ cần cung ứng Việc làm
+public const string Cungungvieclam = "G_I_0"; // Cung ứng việc làm 
+public const string Xemdanhsachhoso = "G_I_1"; // Xem danh sách hồ sơ
+//Hồ sơ đã cung ứng Việc làm
+public const string Cungungvieclam = "G_II_0"; // Cung ứng việc làm 
+public const string Xemdanhsachhoso = "G_II_1"; // Xem danh sách hồ sơ
+//Hồ sơ cần cung ứng Ứng viên
+public const string Cungungungvien = "G_III_0"; // Cung ứng ứng viên
+public const string Xemdanhsachhoso = "G_III_1"; // Xem danh sách hồ sơ
+//Hồ sơ đã cung ứng Ứng viên
+public const string Cungungungvien = "G_IV_0"; // Cung ứng ứng viên
+public const string Xemdanhsachhoso = "G_IV_1"; // Xem danh sách hồ sơ
+//Cung ứng Việc làm online
+public const string Xemdanhsachyeucau = "G_V_0"; // Xem danh sách yêu cầu
+public const string Cungungvieclam = "G_V_1"; // Cung ứng việc làm 
+//Cung ứng Ứng viên online
+public const string Xemdanhsachyeucau = "G_VI_0"; // Xem danh sách yêu cầu
+public const string Cungungungvien = "G_VI_1"; // Cung ứng ứng viên

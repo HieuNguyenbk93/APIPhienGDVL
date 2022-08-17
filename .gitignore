@@ -1,0 +1,13 @@
+.vs/
+**/obj/**
+**/bin/**
+**/node_modules/**
+**/wwwroot/**
+ 
+*.pubxml
+*.pubxml.user
+*.user
+ 
+*.lock
+*.user
+Web/src/app/home-page/components/home-body/components/chitiet-viectimnguoi/chitiet-viectimnguoi.rar

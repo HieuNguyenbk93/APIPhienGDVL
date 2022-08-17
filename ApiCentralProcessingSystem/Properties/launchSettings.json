@@ -1,0 +1,46 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iis": {
+      "applicationUrl": "http://localhost/QLNV_VLHN.Api",
+      "sslPort": 0
+    },
+    "iisExpress": {
+      "applicationUrl": "http://localhost:2443",
+      "sslPort": 44351
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IIS",
+      "launchUrl": "swagger/index.html",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "launchBrowser": true
+    },
+    "WebApi": {
+      "commandName": "IIS"
+    },
+    "ApiCentralProcessingSystem": {
+      "commandName": "IIS"
+    },
+    "PTM.Api": {
+      "commandName": "IIS"
+    },
+    "QLNV_VP": {
+      "commandName": "IIS"
+    },
+    "QLNV": {
+      "commandName": "IIS"
+    },
+    "QLNV_VLHN": {
+      "commandName": "IIS"
+    },
+    "VLHN": {
+      "commandName": "IIS"
+    }
+  }
+}

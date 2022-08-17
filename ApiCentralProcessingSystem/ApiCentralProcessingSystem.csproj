@@ -1,0 +1,87 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TypeScriptToolsVersion>2.8</TypeScriptToolsVersion>
+    <UserSecretsId>d5d5f13f-8757-46ed-93b1-00153a9edf5f</UserSecretsId>
+    <Platforms>AnyCPU;x64</Platforms>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Controllers\LaborerController.cs" />
+    <Compile Remove="ExportGrid\Export_ChiTietKHGiamSat.cs" />
+    <Compile Remove="ExportGrid\Export_ChiTietKHGiamSat.Designer.cs" />
+    <Compile Remove="ExportGrid\PhiengiaodichDN.cs" />
+    <Compile Remove="ExportGrid\PhiengiaodichDN.Designer.cs" />
+    <Compile Remove="ExportGrid\SessionDetailLaborerExport.cs" />
+    <Compile Remove="ExportGrid\SessionDetailLaborerExport.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="ExportGrid\Export_ChiTietKHGiamSat.repx" />
+    <None Remove="ExportGrid\SessionDetailLaborerExport.repx" />
+    <None Remove="ExportGrid\EmployerOnline.repx" />
+    <None Remove="ExportGrid\LaborerOnline.repx" />
+    <None Remove="ExportGrid\NhaTuyenDung.repx" />
+    <None Remove="ExportGrid\UngVien.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ExportGrid\DynamicReport\" />
+    <Folder Include="wwwroot\download\" />
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ExportGrid\EmployerOnline.repx" />
+    <EmbeddedResource Include="ExportGrid\LaborerOnline.repx" />
+    <EmbeddedResource Include="ExportGrid\NhaTuyenDung.repx" />
+    <EmbeddedResource Include="ExportGrid\UngVien.repx" />
+    <EmbeddedResource Include="ExportGrid\UserExport.repx" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="4.0.1" />
+    <PackageReference Include="DevExpress.AspNetCore.Reporting" Version="18.1.4-ctp" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="18.1.4" />
+    <PackageReference Include="EPPlus" Version="4.5.2.1" />
+    <PackageReference Include="MailKit" Version="2.1.0.3" />
+    <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="2.5.1" />
+    <PackageReference Include="SimpleImpersonation" Version="3.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="System.IO.Ports" Version="4.5.0" />
+    <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="5.0.0" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="5.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+    <ProjectReference Include="..\Repositories\Repositories.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells">
+      <HintPath>Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Words">
+      <HintPath>Aspose.Words.dll</HintPath>
+    </Reference>
+    <Reference Include="SV.Mail">
+      <HintPath>SV.Mail.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ProjectExtensions>
+    <VisualStudio><UserProperties DismissedDevExtremeVersion="" /></VisualStudio>
+  </ProjectExtensions>
+</Project>
